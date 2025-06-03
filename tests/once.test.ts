@@ -1,6 +1,6 @@
 import { once } from '../src';
 
-it('calls only once', () => {
+it('Вызывается только 1 раз', () => {
     let counter = 0;
     const fn = once(() => ++counter);
 

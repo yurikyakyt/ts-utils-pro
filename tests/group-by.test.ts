@@ -1,6 +1,6 @@
 import { groupBy } from '../src';
 
-it('groups by key', () => {
+it('Группирует по ключам', () => {
     const data = [
         { type: 'a', val: 1 },
         { type: 'b', val: 2 },

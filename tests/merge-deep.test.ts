@@ -1,6 +1,6 @@
 import { mergeDeep } from '../src';
 
-it('merges deeply', () => {
+it('Глубоко сливает объекты', () => {
     const a = { x: { y: 1 } };
     const b = { x: { z: 2 } };
 

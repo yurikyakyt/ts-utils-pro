@@ -1,7 +1,7 @@
 import {createEventEmitter} from '../src';
 import {vi} from "vitest";
 
-it('emits and handles events', () => {
+it('Принимает и слушает ивенты', () => {
     const emitter = createEventEmitter<'start' | 'stop'>();
     const handler = vi.fn();
 
